@@ -3,3 +3,8 @@ module "vpc_network" {
   region        = var.region
 }
 
+module "default" {
+  source                  = "../fwr"
+  name          = var.name2
+  region        = var.region
+}
