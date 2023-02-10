@@ -1,10 +1,10 @@
 variable "vpc_name"{
     type = string
-    default = "dev_vpc"
+    default = "dev-vpc"
 }
 variable "subnetwork_name"{
     type = string
-    default = "dev_subnetwork"
+    default = "dev-subnetwork"
 }
 variable "region"{
     type = string
