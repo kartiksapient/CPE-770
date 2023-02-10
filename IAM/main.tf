@@ -1,6 +1,6 @@
 resource "google_compute_network" "vpc_network" {
-  name                    = var.name
+  name                    = "dev"
   auto_create_subnetworks = false
   mtu                     = 1460
-  region                  = var.region
+  region                  = "us-west1"
 }
