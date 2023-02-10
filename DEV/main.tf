@@ -1,11 +1,10 @@
 module "vpc_network" {
   source                  = "../IAM"
+  region        = var.region
 }
 
 module "default" {
   source                  = "../fwr"
-  name          = "my-custom-subnet"
-  ip_cidr_range = "10.0.1.0/24"
+  name          = var.name2
   region        = var.region
-  network       = google_compute_network.vpc_network.id
 }
