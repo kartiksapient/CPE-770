@@ -1,10 +1,10 @@
 module "vpc_network" {
   source                  = "../IAM"
-  name                    = var.name
+  name                    = "dev"
 }
 
 module "default" {
   source                  = "../fwr"
   name          = var.name2
-  region        = var.region
+  region        = "us-west1"
 }
