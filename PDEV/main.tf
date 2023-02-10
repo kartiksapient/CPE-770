@@ -1,12 +1,12 @@
 module "vpc_network" {
     
   source                  = "../IAM"
-  name                    = "dev"
+  name                    = "pdev"
 }
 
 module "default" {
 
   source        = "../fwr"
-  name          = "dev2"
+  name          = "pdev2"
   region        = "us-west1"
 }
