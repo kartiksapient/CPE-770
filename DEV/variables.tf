@@ -6,11 +6,11 @@ variable "name"{
 variable "name2"{
     type = string
     default = "dev2"
-    description = "abc"
+    description = "abc2"
 
 }
 variable "region"{
     type = string
     default = "us-west1"
-    description = "abc"
+    description = "abc3"
 }
