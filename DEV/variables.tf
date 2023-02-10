@@ -1,10 +1,10 @@
-variable "name"{
+variable "vpc_name"{
     type = string
-    default = "dev"
+    default = "dev_vpc"
 }
-variable "name2"{
+variable "subnetwork_name"{
     type = string
-    default = "dev2"
+    default = "dev_subnetwork"
 }
 variable "region"{
     type = string

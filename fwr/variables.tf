@@ -1,8 +1,4 @@
-variable "name"{
-    type = string
-    
-}
-variable "name2"{
+variable "subnetwork_name"{
     type = string
 
 }

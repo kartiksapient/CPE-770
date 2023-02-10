@@ -1,7 +1,6 @@
 module "vpc_network" {
-    
-  source                  = "../IAM"
-  name                    = "pdev"
+    source        = "../IAM"
+    name = var.name
 }
 
 module "default" {
