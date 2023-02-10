@@ -1,4 +1,3 @@
-
 resource "google_compute_subnetwork" "default" {
 
   name          = var.name2
