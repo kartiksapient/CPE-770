@@ -4,7 +4,3 @@ module "vpc_network" {
 
 }
 
-module "default" {
-    source        = "../fwr"
-    
-}
