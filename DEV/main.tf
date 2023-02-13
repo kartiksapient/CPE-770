@@ -1,6 +1,6 @@
 module "dev_network" {
     source        = "../Net"
-    name = var.net_name
+    name = var.dev_net_name
 }
 
 module "vpc_network" {

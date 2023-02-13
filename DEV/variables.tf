@@ -1,4 +1,4 @@
-variable "net_name"{
+variable "dev_net_name"{
     type = string
     default = "dev-net"
 }

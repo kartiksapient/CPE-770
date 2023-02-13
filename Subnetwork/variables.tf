@@ -14,3 +14,7 @@ variable "subnet-address" {
 #   default = [ "10.0.1.1/24" ]
 
 }
+variable "net_name"{
+    type = string
+
+}
