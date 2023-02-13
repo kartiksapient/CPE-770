@@ -1,11 +1,11 @@
 module "vpc_network" {
-    source        = "../IAM"
+    source        = "../Vpc"
     name = var.vpc_name
 }
 
 module "default" {
 
-  source        = "../fwr"
+  source        = "../Subnetwork"
   name          = var.subnetwork_name
   region        = var.region
 }
