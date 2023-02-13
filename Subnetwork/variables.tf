@@ -16,5 +16,6 @@ variable "subnet-address" {
 }
 variable "net-name"{
     type = string
+    default = "default"
 
 }
