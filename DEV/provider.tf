@@ -8,6 +8,9 @@ terraform {
   }
 }
 
+
+
+
 provider "google" {
   project = "terracloud-377520"
   region  = "europe-west3"
