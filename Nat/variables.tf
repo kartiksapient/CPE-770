@@ -8,3 +8,8 @@ variable "option"{
     default = "AUTO_ONLY"
   
 }
+
+variable "region"{
+    type = string
+ 
+}
