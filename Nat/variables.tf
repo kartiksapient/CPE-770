@@ -5,5 +5,6 @@ variable "name"{
 
 variable "option"{
     type = string
+    default = "AUTO_ONLY"
   
 }
