@@ -7,7 +7,7 @@ variable "region"{
  
 }
 
-variable "net-name"{
-    type = string
-    default = "default"
-}
+# variable "net-name"{
+#     type = string
+#     default = "default"
+# }
