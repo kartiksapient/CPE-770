@@ -3,6 +3,15 @@ variable "dev_net_name"{
     default = "dev-net"
 }
 
+variable "nat_name"{
+    type = string
+    default = "dev-nat"
+}
+
+variable "allocate_option"{
+    type = string
+    default = "AUTO_ONLY"
+}
 variable "vpc_name"{
     type = string
     default = "dev-vpc"
