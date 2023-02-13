@@ -6,3 +6,7 @@ variable "region"{
     type = string
  
 }
+
+variable "subnet_address" {
+  type = list(string)
+}

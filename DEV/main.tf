@@ -7,5 +7,6 @@ module "default" {
 
   source        = "../Subnetwork"
   name          = var.subnetwork_name
+  ip_cidr_range = var.subnet_address
   region        = var.region
 }
