@@ -15,7 +15,7 @@ variable "subnet-address" {
 
 }
 
-variable "net_name"{
+variable "net_name1"{
     type = string
 
 }
