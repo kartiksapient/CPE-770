@@ -7,6 +7,6 @@ variable "region"{
  
 }
 
-variable "subnet_address" {
+variable "subnet-address" {
   type = list(string)
 }
