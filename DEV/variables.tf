@@ -14,6 +14,7 @@ variable "router_name"{
     # network = var.dev_net_name
 }
 
+
 variable "allocate_option"{
     type = string
     default = "AUTO_ONLY"
