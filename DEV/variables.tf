@@ -8,6 +8,12 @@ variable "nat_name"{
     default = "dev-nat"
 }
 
+variable "router_name"{
+    type = string
+    default = "dev-router"
+    network = var.dev_net_name
+}
+
 variable "allocate_option"{
     type = string
     default = "AUTO_ONLY"

@@ -16,6 +16,11 @@ module "default" {
   region        = var.region
 }
 
+module "router" {
+    source        = "../Router"
+    name = var.router_name
+    region        = var.region
+}
 module "nat" {
 
   source        = "../Nat"
@@ -23,4 +28,5 @@ module "nat" {
 #   nat_ip_allocate_option = var.allocate_option
 #   ip_cidr_range = var.dev_subnet_address
   region        = var.region
+  router        = var.router_name
 }
