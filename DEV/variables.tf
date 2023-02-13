@@ -10,7 +10,7 @@ variable "region"{
     type = string
     default = "us-west2"
 }
-variable "subnet_address" {
+variable "dev_subnet_address" {
   type = list(string)
   default = [ "10.0.1.0/24" ]
 }
