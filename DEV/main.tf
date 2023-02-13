@@ -1,3 +1,8 @@
+module "dev_network" {
+    source        = "../Net"
+    name = var.net_name
+}
+
 module "vpc_network" {
     source        = "../Vpc"
     name = var.vpc_name
