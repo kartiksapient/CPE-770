@@ -11,7 +11,7 @@ variable "nat_name"{
 variable "router_name"{
     type = string
     default = "dev-router"
-    network = var.dev_net_name
+    # network = var.dev_net_name
 }
 
 variable "allocate_option"{
