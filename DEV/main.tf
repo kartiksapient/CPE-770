@@ -22,5 +22,5 @@ module "nat" {
   name          = var.nat_name
 #   nat_ip_allocate_option = var.allocate_option
 #   ip_cidr_range = var.dev_subnet_address
-#   region        = var.region
+  region        = var.region
 }
