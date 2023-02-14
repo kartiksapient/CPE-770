@@ -13,6 +13,7 @@ module "default" {
   source        = "../Subnetwork"
   name          = var.subnetwork_name
   subnet_address = var.dev_subnet_address
+  net_name = var.dev_net_name
   region        = var.region
 }
 
@@ -20,7 +21,7 @@ module "router" {
     source        = "../Router"
     name = var.router_name
     region        = var.region
-    net_name = var.dev_net_name
+    net-name = var.dev_net_name
 }
 module "nat" {
 
