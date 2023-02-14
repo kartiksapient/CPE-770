@@ -35,3 +35,7 @@ variable "dev_subnet_address" {
     type = string
     default = "10.0.1.1/24"
 }
+variable "dev_asn" {
+    type = string
+    default = "64514"
+}

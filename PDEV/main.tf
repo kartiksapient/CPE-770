@@ -27,8 +27,7 @@ module "nat" {
 
   source        = "../Nat"
   name          = var.nat_name
-#   nat_ip_allocate_option = var.allocate_option
-#   ip_cidr_range = var.dev_subnet_address
+  option = var.allocate_option
   region        = var.region
   router        = var.router_name
 }
