@@ -8,9 +8,9 @@ variable "region"{
 }
 
 variable "subnet-address" {
-    type = string
+    # type = string
     # default = "10.0.1.0/24"
-#   type = list(string)
+  type = list(string)
 #   default = [ "10.0.1.1/24" ]
 
 }
