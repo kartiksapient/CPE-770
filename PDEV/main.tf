@@ -22,6 +22,7 @@ module "router" {
     name = var.router_name
     region        = var.region
     net-name = var.pdev_net_name
+    asn = var.pdev_asn
 }
 module "nat" {
 

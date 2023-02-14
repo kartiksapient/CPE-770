@@ -11,7 +11,6 @@ variable "nat_name"{
 variable "router_name"{
     type = string
     default = "pdev-router"
-    # network = var.dev_net_name
 }
 
 
@@ -34,4 +33,8 @@ variable "region"{
 variable "pdev_subnet_address" {
     type = string
     default = "10.0.1.1/24"
+}
+variable "pdev_asn" {
+    type = string
+    default = "64514"
 }

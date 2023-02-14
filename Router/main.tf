@@ -6,6 +6,5 @@ resource "google_compute_router" "router" {
 
   bgp {
     asn = var.asn
-    # asn = 64514
   }
 }

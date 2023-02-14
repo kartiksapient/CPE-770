@@ -12,5 +12,4 @@ variable "asn"{
 }
 variable "net-name"{
     type = string
-    # default = "default"
 }

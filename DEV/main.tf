@@ -6,6 +6,9 @@ module "dev_network" {
 module "vpc_network" {
     source        = "../Vpc"
     name = var.vpc_name
+    auto_create_subnetworks = var.dev_auto_create_subnetworks
+    mtu = var.dev_mtu
+
 }
 
 module "default" {
