@@ -32,7 +32,9 @@ module "nat" {
   source        = "../Nat"
   name          = var.nat_name
   option = var.allocate_option
-#   ip_cidr_range = var.dev_subnet_address
   region        = var.region
   router        = var.router_name
+  source_subnetwork_ip_ranges_to_nat = var.dev_source_subnetwork_ip_ranges_to_nat
+  log_config_enable = var.dev_log_config_enable
+  log_config_filter = var.dev_log_config_filter
 }
