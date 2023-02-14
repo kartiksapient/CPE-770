@@ -38,3 +38,13 @@ variable "pdev_asn" {
     type = string
     default = "64514"
 }
+variable "pdev_auto_create_subnetworks" {
+    type = bool
+    default = false
+  
+}
+variable "pdev_mtu" {
+    type = string
+    default = "1460"
+  
+}
