@@ -20,7 +20,7 @@ module "router" {
     source        = "../Router"
     name = var.router_name
     region        = var.region
-    # network = var.dev_net_name
+    net_name = var.dev_net_name
 }
 module "nat" {
 

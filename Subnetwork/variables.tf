@@ -13,8 +13,8 @@ variable "subnet_address" {
 
 
 }
-# variable "net-name"{
-#     type = string
-#     default = "default"
+variable "net_name"{
+    type = string
+    # default = "default"
 
-# }
+}
