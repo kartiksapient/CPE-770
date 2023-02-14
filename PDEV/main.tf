@@ -33,4 +33,7 @@ module "nat" {
   option = var.allocate_option
   region        = var.region
   router        = var.router_name
+  source_subnetwork_ip_ranges_to_nat = var.pdev_source_subnetwork_ip_ranges_to_nat
+  log_config_enable = var.pdev_log_config_enable
+  log_config_filter = var.pdev_log_config_filter
 }

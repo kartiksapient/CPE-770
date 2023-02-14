@@ -48,3 +48,20 @@ variable "pdev_mtu" {
     default = "1460"
   
 }
+variable "pdev_source_subnetwork_ip_ranges_to_nat" {
+    type = string
+    default = "ALL_SUBNETWORKS_ALL_IP_RANGES"
+  
+}
+
+variable "pdev_log_config_enable" {
+    type = bool
+    default = true
+  
+}
+
+variable "pdev_log_config_filter" {
+    type = string
+    default = "ERRORS_ONLY"
+  
+}
