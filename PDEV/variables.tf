@@ -1,18 +1,6 @@
-# variable "vpc_name"{
-#     type = string
-#     default = "pdev-vpc"
-# }
-# variable "subnetwork_name"{
-#     type = string
-#     default = "pdev-subnetwork"
-# }
-# variable "region"{
-#     type = string
-#     default = "us-west2"
-# }
 variable "pdev_net_name"{
     type = string
-    default = "dev-net"
+    default = "pdev-net"
 }
 
 variable "nat_name"{
