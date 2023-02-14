@@ -4,5 +4,5 @@ resource "google_compute_subnetwork" "default" {
   ip_cidr_range = var.subnet-address
   region        = var.region
   # network       = "default"
-  network = var.net-name
+  network = google_compute_network.network.self_link
 }

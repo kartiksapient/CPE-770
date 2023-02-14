@@ -14,8 +14,8 @@ variable "subnet-address" {
 #   default = [ "10.0.1.1/24" ]
 
 }
-variable "net-name"{
-    type = string
-    default = "default"
+# variable "net-name"{
+#     type = string
+#     default = "default"
 
-}
+# }
